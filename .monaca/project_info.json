@@ -1,7 +1,6 @@
 {
     "plugins": [
         "mobi.monaca.plugins.Monaca",
-        "mobi.monaca.plugins.BarcodeScanner@1.0.3",
         "mobi.monaca.plugins.datepicker@1.0.1",
         "mobi.monaca.plugins.Share@1.0.0",
         "mobi.monaca.plugins.WebIntent@1.0.0"
@@ -17,6 +16,11 @@
             "additional_params": {
                 "arch": "arm"
             }
+        },
+        "phonegap-plugin-barcodescanner": {
+            "variables": [
+                "CAMERA_USAGE_DESCRIPTION=\"To scan barcodes\""
+            ]
         }
     },
     "external_plugins": [

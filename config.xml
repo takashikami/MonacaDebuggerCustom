@@ -91,7 +91,6 @@
   </platform>
   <preference name="WindowsStorePublisherName" value="My Name"/>
   <preference name="WindowsStoreIdentityName" value="06ce1f6b-dbe5-c978-493b-9b02944d2741"/>
-  <preference name="webView" value="org.crosswalk.engine.XWalkWebViewEngine"/>
   <access origin="*"/>
   <preference name="KeepRunning" value="true"/>
   <preference name="monaca:AndroidIsPackageNameSeparate" value="false"/>
